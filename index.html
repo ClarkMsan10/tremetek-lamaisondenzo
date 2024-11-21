@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Maison d'Enzo</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <div class="topbar-contact">
+                <div class="icon"><img src="image/icone/lmail-blanc.png" alt=""></div> 
+                <div class="contact-content">
+                    <h4>Notre Mail</h4>
+                    <p>contact@lamaisondenzo.cg</p>
+                </div>
+            </div>
+            <div class="logo-presentation">
+                <img src="image/logo/logo-blanc.png" alt="">
+            </div>
+            <div class="topbar-contact">
+                <div class="icon">
+                    <img src="image/icone/lwhats-blanc.png" alt="">
+                </div>
+                <div class="contact-content">
+                    <h4>Notre WhatsApp</h4>
+                    <p>+242 06 670 51 93</p>
+                </div>
+            </div>
+        </div>
+        <div class="top-navbar">
+            <div class="logo-navbar">
+                <img src="image/logo/logo-blanc.png" alt="">
+            </div>
+            <input class="checkbox" type="checkbox" name="hamburger" id="hamburger" />
+            <ul class="nav">
+                <li><a class="menu-link" href="#home" onclick="cancelMenu()">Accueil</a></li>
+                <li><a class="menu-link" href="#about" onclick="cancelMenu()">Qui Sommes nous ?</a></li>
+                <li><a class="menu-link" href="#activity" onclick="cancelMenu()">Activités</a></li>
+                <li><a class="menu-link" href="#g-partners" onclick="cancelMenu()">Partenaires</a> </li>
+                <li><a class="menu-link" href="#get-contact" onclick="cancelMenu()">Contact</a></li>
+            </ul>
+                
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="overlay">
+            <img class="banner-bg" src="image/paysage/5.jpg" alt="mol">
+        </div>
+        <div class="banner-content">
+            <p class="welcome">Bienvenue chez,</p>
+            <div class="logo-banner">
+                <img src="image/logo/logo-blanc.png" alt="">
+            </div>
+            <p class="devise">Le meilleur de Dolisie</p>
+            <div class="btn">
+                <button>Nous decouvrir</button>
+            </div>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="container">
+            <h2 class="title">Bienvenue chez nous</h2>
+            <div class="row mt-50 gap-10">
+                <div class="image-about-us">
+                    <img src="/image/paysage/70.jpg" alt="maison-en">
+                </div>
+                <div class="container-about-us">
+                    <div class="content-about-us">
+                        <p class="primary-content">
+                            La maison d'enzo est votre maison, pour ce que vous voulez. On donne ce que l'on peut, on mange des bons trucs. 
+                        </p>
+                        <p class="secondary-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio veniam facere impedit officiis necessitatibus in earum voluptatibus eligendi non! Numquam officia quibusdam cumque ratione in soluta ipsum dolore odio vel.
+                        </p>
+                    </div>
+                    <div class="content-devise-au">
+                        <div class="card-devise">
+                            <div class="image-devise">
+                                <img src="image/icone/local.png" alt="">
+                            </div>
+                            <div class="content-card-devise">
+                            <h4>Cusine Locale</h4>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. delectus earum pariatur.</p>
+                            </div>
+                        </div>
+                        <div class="card-devise">
+                            <div class="image-devise">
+                                <img src="image/icone/eat.png" alt="">
+                            </div>
+                            <div class="content-card-devise">
+                                <h4>SURPLACE OU EMPORTER</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. delectus earum pariatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="statistiques">
+        <div class="container">
+            <div class="card-stat">
+                <div class="row gap-10">
+                    <div class="card-image-stat square">
+                        <img src="image/icone/client.png" alt="">
+                    </div>
+                    <div class="card-details-stat">
+                        <h5>CLIENT</h5>
+                        <p>+<span>2000</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-stat">
+                <div class="row gap-10">
+                    <div class="card-image-stat circle">
+                        <img src="image/icone/evenement.png" alt="">
+                    </div>
+                    <div class="card-details-stat ">
+                        <h5>EVENEMENT</h5>
+                        <p>+<span>2000</span></p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="card-stat">
+                <div class="row gap-10">
+                    <div class="card-image-stat circle">
+                        <img src="image/icone/evenement.png" alt="">
+                    </div>
+                    <div class="card-details-stat ">
+                        <h5>EVENEMENT</h5>
+                        <p>+<span>2000</span></p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <div class="transition-section"></div>
+    <script src="script/hamburger.js"></script>
+    <script src="script/app.js"></script>
+</body>
+</html>
